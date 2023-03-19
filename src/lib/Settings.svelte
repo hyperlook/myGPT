@@ -7,7 +7,7 @@
     defaultAssistantRole,
     type DefaultAssistantRole,
   } from "../stores/stores";
-  let apiTextField = $apiKey === null ? process.env.OPENAI_KEY : $apiKey;
+  let apiTextField = $apiKey === null ? "" : $apiKey;
   let assistantRoleField = $defaultAssistantRole.role;
   let assistantRoleTypeField = $defaultAssistantRole.type;
   import CloseIcon from "../assets/close.svg";
