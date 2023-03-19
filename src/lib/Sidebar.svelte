@@ -63,7 +63,7 @@ You are a therapist. ETC...`;
         <p class="text-left px-8 font-bold text-xl ">
         look<br />
         </p>
-        <p class="text-center font-bold text-2xl  leading-4">My ChatGPT</p>
+        <p class="text-center font-bold text-2xl  leading-4">My  ChatGPT</p>
       </div>
       <div class="flex flex-col h-40 my-2 flex-grow overflow-y-auto ">
         <!-- TU ZACINA -->
