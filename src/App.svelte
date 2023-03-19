@@ -72,8 +72,8 @@
   function setupConfig() {
     if ($apiKey !== null && configuration === null) {
       configuration = new Configuration({
-        //apiKey: $apiKey,
-        apiKey: process.env.OPENAI_KEY || $apiKey,
+        apiKey: $apiKey,
+        //apiKey: process.env.OPENAI_KEY || $apiKey,
       });
       openai = new OpenAIApi(configuration);
       console.debug("OpenAI API initialized");
